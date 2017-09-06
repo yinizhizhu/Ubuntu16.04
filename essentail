@@ -1,0 +1,23 @@
+sudo ./connect -u 1701214050 -p 
+sudo ./connect -c
+
+ssh -l ljh 162.105.98.36
+
+
+ SSH连接下复制远程linux服务器文件到本地的命令（zz） - syyming - 喜欢安静的感觉
+scp /home/doit.py ljh@162.105.98.36:/home/ljh
+scp ljh@162.105.98.36:/home/ljh/doit.py /home/doit.py
+ SSH连接下复制远程linux服务器文件到本地的命令（zz） - syyming - 喜欢安静的感觉
+scp ljh@162.105.98.36:/home/gx /home/*.tar.gz
+
+sudo mv file /xx/xxx
+
+ctrl + alt + t 打开键
+
+ctrl + alt + 方向键（切换work space）
+
+ctrl + win + 方向建（等同windows下win+方向键）
+
+
+win + s
+
