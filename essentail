@@ -31,3 +31,6 @@ D:
 /media/lee/DATA/Github/StoreHouse/README.md
 C:
 /media/lee/OS/LDOF_src/im2.jpg
+
+ps -aux | grep lantern
+kill -9 PID
