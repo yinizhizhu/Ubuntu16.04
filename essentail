@@ -34,3 +34,10 @@ C:
 
 ps -aux | grep lantern
 kill -9 PID
+
+
+
+alias py27="/usr/bin/python2.7" 
+unalias py27
+alias py27pip="/usr/bin/pip" 
+unalias py27pip
