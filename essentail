@@ -41,3 +41,10 @@ alias py27="/usr/bin/python2.7"
 unalias py27
 alias py27pip="/usr/bin/pip" 
 unalias py27pip
+
+
+
+ImportError anaconda2 matplotlib libstdc++.so.6 version 'CXXABI_1.3.9' not found _path.so
+pip uninstall matplotlib
+pip install matplotlib
+
