@@ -57,3 +57,5 @@ sudo docker rm lee
 sudo service xrdp restart
 sudo service xrdp stop
 
+firefox: about:config
+设置关闭最后一个网页不关闭浏览器：lasttab
