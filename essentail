@@ -37,6 +37,8 @@ C:
 ps -aux | grep lantern
 kill -9 PID
 
+ifconfig -a
+162.105.94.183
 
 
 alias py27="/usr/bin/python2.7" 
@@ -59,3 +61,5 @@ sudo service xrdp stop
 
 firefox: about:config
 设置关闭最后一个网页不关闭浏览器：lasttab
+
+安装MatConvNet: vl_compilenn('enableGpu', true, 'cudaRoot', '/usr/local/cuda', 'cudaMethod', 'nvcc', 'enableCudnn', true, 'cudnnRoot', '/usr/local/cuda') ;
