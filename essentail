@@ -23,9 +23,7 @@ ctrl + alt + 方向键（切换work space）
 按 Ctrl+Alt+Shift+↓ 将窗口移动到工作区切换器里下方的工作区。
 按 Ctrl+Alt+Shift+↑ 将窗口移动到工作区切换器里上方的工作区。
 
-
 ctrl + win + 方向建（等同windows下win+方向键）
-
 
 win + s
 
@@ -40,20 +38,21 @@ kill -9 PID
 ifconfig -a
 162.105.94.183
 
-
 alias py27="/usr/bin/python2.7" 
 unalias py27
 alias py27pip="/usr/bin/pip" 
 unalias py27pip
 
-
-
 ImportError anaconda2 matplotlib libstdc++.so.6 version 'CXXABI_1.3.9' not found _path.so
 pip uninstall matplotlib
 pip install matplotlib
 
+ifconfig -a
+
 sudo docker run -d -p 8888:8888 -p 8889:8889 --name lee alband/crayon
 sudo docker -h
+sudo docker stop lee
+sudo docker start lee
 sudo docker rm lee
 
 sudo service xrdp restart
