@@ -3,6 +3,8 @@ sudo ./connect -c
 
 ssh -l ljh 162.105.98.36
 
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple torch torchvision
+
 nvidia-smi
 nvcc -V
 
